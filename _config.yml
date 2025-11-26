@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Analog Circuit Design Repository"
 title_separator          : "-"
 subtitle                 : #site tagline that appears below site title in masthead
 name                     : "Deokyun Kim"
 description              : "Analog Circuit Design Repository"
 url                      : "https://jeityana.github.io/"
-baseurl                  : "/jeityAna/jeityAna.github.io"
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -252,7 +252,7 @@ pagination:
   sort_reverse: true
   category: 'posts'
   tag: ''
-  locale: ''
+  locale: 'ko-KR'
   trail:
     before: 2
     after: 2
@@ -323,10 +323,10 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-        provider: "utterances"
-        utterances:
-          repo: "jeityAna/jeityAna.github.io"
-          theme: "github-dark"
-          issue_term: "pathname"
+      provider: "utterances"
+      utterances:
+        repo: "jeityAna/jeityAna.github.io"
+        theme: "github-dark"
+        issue_term: "pathname"
       share: true
       related: true
